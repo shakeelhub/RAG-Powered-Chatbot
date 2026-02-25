@@ -1,8 +1,8 @@
 {
   "channel_id": "d7a7b9f6-492a-4e44-ae5a-05ef8bd7c999",
-  "resource_id": "NxQy4RuGNtD4Tguvlda9I8Z6n8w",
+  "resource_id": "YOUR_RESOURCE_ID",
   "expiration": "1772042881000",
-  "webhook_url": "https://glandlike-bao-unmordantly.ngrok-free.dev/drive-webhook",
-  "folder_id": "1PxERO0LtjITMhBv07PBaX4DxCy4gckik",
+  "webhook_url": "YOUR_WEBHOOK_URL_OF_NGROK",
+  "folder_id": "YOUR_FOLDER_ID",
   "created_at": "2026-02-24T18:08:02.281687"
 }
