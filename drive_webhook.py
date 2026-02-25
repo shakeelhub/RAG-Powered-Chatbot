@@ -12,8 +12,8 @@ import requests as req
 SERVICE_ACCOUNT_FILE = "service_account.json"
 SCOPES               = ["https://www.googleapis.com/auth/drive.readonly"]
 UPLOAD_FOLDER        = "uploads"
-WEBHOOK_SECRET       = "myragSecret123"       # 🔑 Same as setup_drive_watch.py
-FOLDER_ID = "1PxERO0LtjITMhBv07PBaX4DxCy4gckik"  # your folder id
+WEBHOOK_SECRET       = "YOUR_WEBHOOK_SECRET_KEY"# 🔑 Same as setup_drive_watch.py
+FOLDER_ID = "YOUR_FOLDER_ID"  # your folder id
 ALLOWED_EXTENSIONS   = {".pdf", ".xlsx", ".xls", ".csv", ".docx"}
 
 drive_bp = Blueprint("drive_webhook", __name__)
