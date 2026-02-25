@@ -27,14 +27,14 @@ SCOPES               = ["https://www.googleapis.com/auth/drive.readonly"]
 
 # The Google Drive folder ID to watch
 # Get it from the URL: drive.google.com/drive/folders/THIS_PART
-FOLDER_ID = "1PxERO0LtjITMhBv07PBaX4DxCy4gckik"   # 🔑 Replace this
+FOLDER_ID = YOUR_FOLDER_ID   # 🔑 Replace this
 
 # Your public Flask server URL (must be HTTPS for Google Drive webhooks)
 # For local testing use: ngrok http 5001  → get the https URL
-WEBHOOK_URL = "https://glandlike-bao-unmordantly.ngrok-free.dev/drive-webhook"   # 🔑 Replace this
+WEBHOOK_URL = YOUR_WEBHOOK_URL   # 🔑 Replace this
 
 # Must match WEBHOOK_SECRET in drive_webhook.py exactly
-WEBHOOK_SECRET = "myragSecret123"   # 🔑 Replace this
+WEBHOOK_SECRET = YOUR_WEBHOOK_SECRET_KEY   # 🔑 Replace this
 
 # ─────────────────────────────────────────────────────────────
 # REGISTER THE WATCH
