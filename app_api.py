@@ -10,8 +10,8 @@ import os, re, requests
 # ─────────────────────────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────────────────────────
-PINECONE_API_KEY  = "pcsk_4cgDK_DQsFitGvScBaRfG68qKMKHhpQjJfrjhQ5R6kJuQJZUWWBDKEkhJ4iZAirjyGiez"
-OPENAI_API_KEY    = "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"
+PINECONE_API_KEY  = YOUR_PINECONE_API_KEY
+OPENAI_API_KEY    = YOUR_OPENAI_API_KEY
 PINECONE_INDEX    = "rag-bot"
 OLLAMA_URL        = "http://localhost:11434/api/generate"
 LLM_MODEL         = "qwen2.5:3b"
