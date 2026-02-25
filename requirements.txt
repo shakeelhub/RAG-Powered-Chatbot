@@ -1,0 +1,12 @@
+flask
+flask-cors
+requests
+pymupdf
+pandas
+python-docx
+openpyxl
+openai
+sentence-transformers
+google-api-python-client
+google-auth
+google-auth-httplib2
