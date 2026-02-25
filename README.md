@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ### Step 2 — Add your API keys
 Open app.py and app_api.py and replace:
 ```python
-OPENAI_API_KEY = "ysk-proj-wB4Rp6Cko2gDo4eDJF69QdJlG6fCOaM_xukhFAJFFgv8RPuTi-m0JwBepr6epnBmgVohAbJEPgT3BlbkFJVlspcr_IXPGZf3yITEW8sZljjNoxjh8nQ6AFtWOwqR1URDM4fIOiA1RVUnKaWArN0QulsjbHAA"   # sk-...
+OPENAI_API_KEY = "YOUR.OPENAI.API.KEY    "   # sk-...
 ```
 
 ### Step 3 — Start Ollama
