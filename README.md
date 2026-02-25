@@ -1,5 +1,4 @@
 # ERP Document AI — RAG System
-## Tech Solutions Pvt Ltd
 
 ---
 
@@ -29,7 +28,7 @@ pip install -r requirements.txt
 ### Step 2 — Add your API keys
 Open app.py and app_api.py and replace:
 ```python
-OPENAI_API_KEY = "YOUR.OPENAI.API.KEY    "   # sk-...
+OPENAI_API_KEY = "YOUR.OPENAI.API.KEY"
 ```
 
 ### Step 3 — Start Ollama
